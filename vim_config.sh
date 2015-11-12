@@ -15,3 +15,5 @@ git clone https://github.com/scrooloose/syntastic.git
 echo "installing easyMotion"
 cd ~/.vim/bundle && \
 git clone https://github.com/easymotion/vim-easymotion.git
+
+echo "installing supertab"
