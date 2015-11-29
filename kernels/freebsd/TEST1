@@ -339,7 +339,7 @@ device		ukbd			# Keyboard
 device		umass			# Disks/Mass storage - Requires scbus and da
 
 # Sound support
-#device		sound			# Generic sound driver (required)
+device		sound			# Generic sound driver (required)
 #device		snd_cmi			# CMedia CMI8338/CMI8738
 #device		snd_csa			# Crystal Semiconductor CS461x/428x
 #device		snd_emu10kx		# Creative SoundBlaster Live! and Audigy
