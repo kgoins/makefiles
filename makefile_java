@@ -5,9 +5,8 @@ JC = javac
   $(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-        Foo.java \
-        Blah.java \
-        Library.java \
+        MathServer.java \
+        MathClient.java \
         Main.java
 
 default: classes
