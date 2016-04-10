@@ -1,17 +1,8 @@
 JFLAGS = -g
 JC = javac
-.SUFFIXES: .java .class
-.java.class:
-  $(JC) $(JFLAGS) $*.java
 
-CLASSES = \
-        MathServer.java \
-        MathClient.java \
-        Main.java
-
-default: classes
-
-classes: $(CLASSES:.java=.class)
+default:
+	$(JC) $(JFLAGS) *.java
 
 clean:
-  $(RM) *.class
+	$(RM) *.class
